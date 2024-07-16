@@ -24,32 +24,39 @@
 
 <article class="post">
 	<!-- You might want to add an alt frontmatter attribute. If not, leaving alt blank here works, too. -->
-	
 
-	<h1>{title}</h1>
-
-	<div class="meta">
-		<b>Published:</b>
-		{date}
-		<br />
-		<b>Updated:</b>
-		{updated}
-	</div>
+	<header>
+		<h1>{title}</h1>
+		<span />
+		<div class="meta">
+			{Intl.DateTimeFormat('en-IN', { month: 'long', day: 'numeric', year: '2-digit' }).format(
+				new Date(date)
+			)}
+		</div>
+	</header>
 
 	<svelte:component this={PostContent} />
-
-	{#if categories}
-		<aside class="post-footer">
-			<h2>Posted in:</h2>
-			<ul class="post-footer__categories">
-				{#each categories as category}
-					<li>
-						<a href="/blog/category/{category}/">
-							{category}
-						</a>
-					</li>
-				{/each}
-			</ul>
-		</aside>
-	{/if}
 </article>
+
+<style>
+	header {
+		display: flex;
+		align-items: center;
+		margin: 2rem 0;
+	}
+	header h1 {
+		margin: 0;
+	}
+	header > span {
+		flex-grow: 1;
+		border-bottom: 1px dotted #333;
+		margin: 0 1rem;
+		align-self: flex-end;
+	}
+	header .meta {
+		font-size: 0.8rem;
+	}
+	article {
+		text-align: left;
+	}
+</style>
