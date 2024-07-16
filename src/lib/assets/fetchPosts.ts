@@ -15,7 +15,6 @@ const fetchPosts = async () => {
 		).map(async ([path, resolver]) => {
 			const { metadata } = await resolver();
 			const slug = path.split('/').pop() as unknown as [string, string];
-			console.log({ slug });
 			return { ...metadata, slug: slug.slice(0, -3) };
 		})
 	);
