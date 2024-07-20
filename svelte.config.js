@@ -1,7 +1,7 @@
-
-import { mdsvex } from 'mdsvex'
-import rehypeAutolinkHeadings from 'rehype-autolink-headings'
-import rehypeSlug from 'rehype-slug'
+import { mdsvex } from 'mdsvex';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import rehypeSlug from 'rehype-slug';
+import adapter from '@sveltejs/adapter-netlify';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -14,12 +14,15 @@ const config = {
 			extensions: ['.md'],
 
 			// Adds IDs to headings, and anchor links to those IDs. Note: must stay in this order to work.
-			rehypePlugins: [
-				rehypeSlug,
-				rehypeAutolinkHeadings,
-			],
-		}),
+			rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings]
+		})
 	],
+	kit: {
+		adapter: adapter({
+			edge: false,
+			split: false
+		})
+	}
 };
 
 export default config;
