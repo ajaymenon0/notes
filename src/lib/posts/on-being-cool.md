@@ -1,6 +1,6 @@
 ---
 title: 'Am I cool enough?'
-date: '2024-07-16'
+date: '2024-07-20'
 categories: 'ramblings'
 coverImage: ''
 coverWidth: 16
