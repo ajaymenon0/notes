@@ -1,6 +1,7 @@
 <script>
 	import '@fontsource-variable/jost';
 	import { onNavigate } from '$app/navigation';
+	import Logo from '$lib/components/logo.svelte';
 
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
@@ -12,18 +13,58 @@
 			});
 		});
 	});
+
+	function toggle() {
+		window.document.body.classList.toggle('dark-mode');
+	}
 </script>
 
 <section>
-	<h1><a href="/">notes</a></h1>
+	<nav>
+		<a href="https://ajm0.dev"><Logo /></a>
+		<h1><a href="/">notes</a></h1>
+		<button id="mode" on:click={toggle}></button>
+	</nav>
 	<slot />
 </section>
 
 <style>
+	:global(body) {
+		--textColor: #333333;
+		--bgColor: #ffffff;
+		background-color: var(--bgColor);
+		color: var(--textColor);
+		transition: background-color 0.3s;
+		margin: 0;
+		overflow-y: scroll;
+	}
+	:global(body.dark-mode) {
+		--textColor: #ffffff;
+		--bgColor: #333333;
+		background-color: var(--bgColor);
+		color: var(--textColor);
+	}
+	/* :global(article ul) {
+		padding-left: ;
+	} */
+	#mode {
+		background-color: var(--textColor);
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		cursor: pointer;
+		border: none;
+		margin: 0 0 0 40px;
+	}
 	h1 a {
-		color: #333;
+		color: var(--textColor);
 		text-decoration: none;
-		border-bottom: 1px dotted #333;
+		border-bottom: 1px dotted var(--textColor);
+	}
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 	section {
 		font-family: 'Jost Variable', sans-serif;

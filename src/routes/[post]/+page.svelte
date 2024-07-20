@@ -2,8 +2,7 @@
 <script>
 	export let data;
 
-	const { title, excerpt, date, updated, coverImage, coverWidth, coverHeight, categories } =
-		data.meta;
+	const { title, excerpt, date, coverWidth, coverHeight } = data.meta;
 	const { PostContent } = data;
 </script>
 
@@ -40,6 +39,10 @@
 <style>
 	article {
 		text-align: left;
+		color: var(--textColor);
+		margin: 1rem 0;
+		padding-bottom: 6rem;
+		max-width: 100%;
 	}
 
 	h1 {
@@ -52,6 +55,6 @@
 
 	.divider {
 		margin: 1rem 0;
-		border-bottom: 1px dotted #333;
+		border-bottom: 1px dotted var(--textColor);
 	}
 </style>
