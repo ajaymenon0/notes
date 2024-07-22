@@ -5,7 +5,7 @@ categories: 'ramblings'
 coverImage: ''
 coverWidth: 16
 coverHeight: 9
-excerpt: Check out how heading links work with this starter in this post.
+excerpt: Thoughts on the pressure of image maintenance and self celebrity culture
 ---
 
 I'm on the ugly side of my 30s now. I have a bad knee and an okay knee. I get excited about new kitchen cleaning apparatus compared to timely project completions. So there is no ambiguity as to where my _'feeling of youth'_ meter is at, since it's now measured in the frequency of chronic back aches.
