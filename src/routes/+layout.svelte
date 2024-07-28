@@ -44,6 +44,10 @@
 		background-color: var(--bgColor);
 		color: var(--textColor);
 	}
+	:global(body.dark-mode article a) {
+		--textColor: #ffffff;
+		color: var(--textColor);
+	}
 	/* :global(article ul) {
 		padding-left: ;
 	} */

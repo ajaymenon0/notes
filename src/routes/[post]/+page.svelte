@@ -57,4 +57,8 @@
 		margin: 1rem 0;
 		border-bottom: 1px dotted var(--textColor);
 	}
+
+	article a {
+		color: var(--textColor);
+	}
 </style>
