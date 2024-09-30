@@ -1,5 +1,4 @@
 <script>
-	import '@fontsource-variable/jost';
 	import { onNavigate } from '$app/navigation';
 	import Logo from '$lib/components/logo.svelte';
 
@@ -21,9 +20,9 @@
 
 <section>
 	<nav>
-		<a href="https://ajm0.dev"><Logo /></a>
+		<a aria-label="Home" href="https://ajm0.dev"><Logo /></a>
 		<h1><a href="/">notes</a></h1>
-		<button id="mode" on:click={toggle}></button>
+		<button id="mode" aria-label="Toggle dark or light mode" on:click={toggle}></button>
 	</nav>
 	<slot />
 </section>
@@ -71,7 +70,9 @@
 		align-items: center;
 	}
 	section {
-		font-family: 'Jost Variable', sans-serif;
+		font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+		font-weight: normal;
+		font-optical-sizing: auto;
 		color: #333;
 		width: clamp(300px, 90vw, 800px);
 		margin: 0 auto;
