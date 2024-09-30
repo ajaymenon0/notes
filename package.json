@@ -35,6 +35,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource-variable/jost": "^5.1.0",
 		"@types/dom-view-transitions": "^1.0.4"
 	}
 }

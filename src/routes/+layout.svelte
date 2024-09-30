@@ -1,4 +1,5 @@
 <script>
+	import '@fontsource-variable/jost';
 	import { onNavigate } from '$app/navigation';
 	import Logo from '$lib/components/logo.svelte';
 
@@ -70,7 +71,8 @@
 		align-items: center;
 	}
 	section {
-		font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+		font-family: 'Jost Variable', sans-serif;
+		/* font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; */
 		font-weight: normal;
 		font-optical-sizing: auto;
 		color: #333;
