@@ -80,4 +80,11 @@
 		margin: 0 auto;
 		text-align: center;
 	}
+
+	:global(blockquote) {
+		font-style: italic;
+		border-left: 4px solid var(--textColor);
+		padding-left: 1rem;
+		margin-left: 0;
+	}
 </style>
