@@ -17,6 +17,9 @@
 	<meta name="twitter:description" content={excerpt} />
 	{#if coverImage}
 		<meta property="og:image" content={`https://notes.ajm0.dev/${coverImage}`} />
+		{#if coverWidth > 1000}
+			<meta name="twitter:card" content="summary_large_image" />
+		{/if}
 		<meta property="og:image:width" content={coverWidth} />
 		<meta property="og:image:height" content={coverHeight} />
 		<meta name="twitter:image" content={`https://notes.ajm0.dev/${coverImage}`} />
