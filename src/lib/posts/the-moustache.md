@@ -8,6 +8,13 @@ coverHeight: 360
 excerpt: A journey into a downward spiral that veers off to 'Kafka on shrooms' levels
 ---
 
+<img
+class="cover-image"
+src='/images/the-moustache.png'
+alt="The Moustache book cover"
+width="200px"
+/>
+
 The summary of this book is in itself good enough to pique your curiosity:
 
 > One morning, a man shaves off his long-worn moustache, hoping to amuse his wife and friends. But when nobody notices, or pretends not to have noticed, what started out as a simple trick turns to terror. As doubt and denial bristle, and every aspect of his life threatens to topple into madness – a disturbing solution comes into view, taking us on a dramatic flight across the world.
