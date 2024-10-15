@@ -1,5 +1,7 @@
 <script>
 	import '@fontsource-variable/jost';
+	import { dev } from '$app/environment';
+
 	import { onNavigate } from '$app/navigation';
 	import Logo from '$lib/components/logo.svelte';
 
@@ -18,6 +20,16 @@
 		window.document.body.classList.toggle('dark-mode');
 	}
 </script>
+
+<svelte:head>
+	{#if !dev}
+		<script
+			defer
+			src="https://cloud.umami.is/script.js"
+			data-website-id="3af066e1-9915-404a-b2eb-319f232aac28"
+		></script>
+	{/if}
+</svelte:head>
 
 <section>
 	<nav>
