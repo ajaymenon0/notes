@@ -19,7 +19,7 @@ I'm no expert when it comes to Japanese literature, so there are a bunch of thin
 
 The book features four stories revolving around the patrons of a cafe participating in the convoluted yet interesting mode of time travel. All stories are discrete yet tied together by the cafe as multiple characters weave in and out of every story to form some decent world building.
 
-Now when I hear time travel, my ears perk up. Nothing gets the Science Fiction in me tingling like a good time travel story. But fair warning, a time travel story this might be. Science fiction this is not. A honestly, nothing from the cover to the blurb indicates any form of SciFi, so that misunderstanding is totally on me.
+Now when I hear time travel, my ears perk up. Nothing gets the Science Fiction in me tingling like a good time travel story. But fair warning, a time travel story this might be. Science fiction this is not. Honestly, nothing from the cover to the blurb indicates any form of SciFi, so that misunderstanding is totally on me.
 
 So what is it if not SciFi? An anthology of tragic stories. And when I say tragic I don't mean in the Shakespearean sense. But more on the lines of _malayalam_ daily soaps where every actor has a clause which states the need to cry _X times per episode_ to keep the audience engrossed. This book seems to be heartlessly geared towards wanting to make the reader cry.
 
