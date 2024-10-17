@@ -97,8 +97,8 @@
 		height: 2px;
 		margin: 0.5rem 0;
 		width: var(--progress);
+		background-color: gold;
 		max-width: 100%;
-		border-bottom: 1px dotted var(--textColor);
 		z-index: 2;
 	}
 </style>
