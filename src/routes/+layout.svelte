@@ -83,10 +83,11 @@
 		align-items: center;
 	}
 	section {
-		font-family: 'Jost Variable', sans-serif;
-		/* font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; */
+		font-family: 'Jost Variable', Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro,
+			sans-serif;
 		font-weight: normal;
 		font-optical-sizing: auto;
+		font-display: optional;
 		color: #333;
 		width: clamp(300px, 90vw, 800px);
 		margin: 0 auto;
