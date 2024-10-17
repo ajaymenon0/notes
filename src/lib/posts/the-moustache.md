@@ -3,16 +3,17 @@ title: 'Book: The Moustache by Emmanuel Carrère'
 date: '2024-10-01'
 categories: 'books'
 coverImage: '/images/the-moustache.png'
-coverWidth: 220
-coverHeight: 360
+coverWidth: 200
+coverHeight: 326
 excerpt: A journey into a downward spiral that veers off to 'Kafka on shrooms' levels
 ---
 
 <img
 class="cover-image"
-src='/images/the-moustache.png'
+src='/images/the-moustache.webp'
 alt="The Moustache book cover"
 width="200px"
+height="326px"
 />
 
 The summary of this book is in itself good enough to pique your curiosity:

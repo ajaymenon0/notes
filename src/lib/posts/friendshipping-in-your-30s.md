@@ -13,6 +13,7 @@ class="cover-image"
 src='/images/frenz.webp'
 alt="Dog and cat sitting together"
 width="100%"
+style="aspect-ratio: 20/9"
 />
 
 There exists a significant shift that most 30 to 40 year olds warn 20 year olds about (Since sub 20 year olds would seem too young to relate to and 40+ year olds have more important things to do than talk to 20 somethings). These involve the exponentials spikes of body aches and pains, extended hangover periods, the get-married (and/or) have-kids ultimatums that rears its ugly head up more often, the “future” planning that we’re now supposed to be magically equipped with etc. But one thing that usually slips through the cracks is warning about the changing nature of 30+ friendships. I would be reluctant to label it an ‘evolving nature of friendships’ since that would be generalising it as a positive thing for everyone, which from what I’ve witnessed is not the case always.

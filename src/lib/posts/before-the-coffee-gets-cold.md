@@ -10,9 +10,10 @@ excerpt: A journey into a downward spiral that veers off to 'Kafka on shrooms' l
 
 <img
 class="cover-image"
-src='/images/before-the-coffee-gets-cold.jpg'
+src='/images/before-the-coffee-gets-cold.webp'
 alt="Before the coffee gets cold book cover"
 width="200px"
+height="302px"
 />
 
 I'm no expert when it comes to Japanese literature, so there are a bunch of things I can attribute to being "lost in translation". It's fairly common when phrases and idioms don't cross linguistic borders too well, at times causing grave disservice to the source. But from what I can surmise on reading various takes and reviews on this book from others, this definitely wasn't my...umm..._**cup of tea**_.
