@@ -82,9 +82,14 @@
 		justify-content: space-between;
 		align-items: center;
 	}
+	@font-face {
+		font-family: 'Jost-fallback';
+		size-adjust: 95.32000000000005%;
+		ascent-override: 130%;
+		src: local('Arial');
+	}
 	section {
-		font-family: 'Jost Variable', Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro,
-			sans-serif;
+		font-family: 'Jost Variable', 'Jost-fallback';
 		font-weight: normal;
 		font-optical-sizing: auto;
 		font-display: optional;
