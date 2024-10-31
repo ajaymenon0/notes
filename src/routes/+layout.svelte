@@ -87,12 +87,12 @@
 		size-adjust: 95.32000000000005%;
 		ascent-override: 130%;
 		src: local('Arial');
+		font-display: optional;
 	}
 	section {
 		font-family: 'Jost Variable', 'Jost-fallback';
 		font-weight: normal;
 		font-optical-sizing: auto;
-		font-display: optional;
 		color: #333;
 		width: clamp(300px, 90vw, 800px);
 		margin: 0 auto;
