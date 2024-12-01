@@ -1,5 +1,5 @@
 ---
-title: 'Chess as a model of decision making in life'
+title: 'Chess as a model for decision making'
 date: '2024-11-30'
 categories: 'ramblings'
 coverImage: 'images/chess.webp'
