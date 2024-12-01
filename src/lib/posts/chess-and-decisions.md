@@ -2,7 +2,7 @@
 title: 'Chess as a model of decision making in life'
 date: '2024-11-30'
 categories: 'ramblings'
-coverImage: '/images/before-the-coffee-gets-cold.jpg'
+coverImage: 'images/chess.webp'
 coverWidth: 1200
 coverHeight: 800
 excerpt: Using the newfound love for chess as a means to improve decision making

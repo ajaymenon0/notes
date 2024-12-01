@@ -2,7 +2,7 @@
 title: 'Book: Before the coffee gets cold by Toshikazu Kawaguchi'
 date: '2024-10-15'
 categories: 'books'
-coverImage: '/images/before-the-coffee-gets-cold.jpg'
+coverImage: 'images/before-the-coffee-gets-cold.webp'
 coverWidth: 350
 coverHeight: 530
 excerpt: A journey into a downward spiral that veers off to 'Kafka on shrooms' levels
