@@ -2,7 +2,7 @@
 title: 'The case for vibe coding'
 date: '2025-04-17'
 categories: 'code'
-coverImage: '/images/vibing.png'
+coverImage: '/images/vibing.webp'
 coverWidth: 974
 coverHeight: 547
 excerpt: Fighting the presumption of vibe coded being useless
